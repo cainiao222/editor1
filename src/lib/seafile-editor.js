@@ -363,6 +363,7 @@ class SeafileEditor extends React.Component {
     const src = window.prompt('Enter the URL of the image:')
     if (!src) return
 
+	
     const { value } = this.state
     const change = value.change().call(insertImage, src)
 
