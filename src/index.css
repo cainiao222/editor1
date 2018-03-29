@@ -1,3 +1,9 @@
+html body{
+  /*width: 100%;*/
+  height: 100%;
+  /*position: relative;*/
+}
+
 html,
 input,
 textarea {
@@ -167,9 +173,12 @@ input:focus {
   margin-bottom: 0;
 }
 
+
 .editor > * > * + * {
   margin-top: 1em;
 }
+
+
 
 .menu > * {
   display: inline-block;
@@ -270,15 +279,97 @@ input:focus {
   display: inline-block;
 }
 
-.EditorDemo {
-  border: 1px solid #bbb;
-}
-.editor {
-  background: #fff;
-  padding: 4px 4px;
-  min-height: 100%;
-}
+
 
 .editor pre {
   margin-bottom: 0;
 }
+
+
+/******* sjq  add***/
+
+#root{
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*right: 0;*/
+  /*left: 0;*/
+}
+
+.textContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction:column ;
+  background-color: #00b3ee;
+  border: 1px solid #bbb;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.topbar{
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  border-bottom: 2px solid #aaa;
+}
+
+
+.title{
+  float: left;
+}
+
+.menu{
+  /*width: 80%;*/
+  float: right;
+  margin-right: 20px;
+}
+
+.container-fluid{
+  /*overflow: hidden;*/
+  position: relative;
+  height: 100%;
+  background-color: rgb(250,250,249);
+}
+
+.editor {
+  background: #fff;
+  padding: 4px 4px;
+  min-height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.left-panel{
+  width: 20%;
+  background-color: #fff;
+  /*float: left;*/
+  position: absolute;
+  left:0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  border-right: 1px solid #aaa;
+}
+
+.editorContainer{
+  width: 80%;
+  position: absolute;
+  overflow: scroll;
+  left: 20%;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(250,250,249);
+}
+
+
+
+
+
+
+
