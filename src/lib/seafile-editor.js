@@ -8,7 +8,6 @@ import { Tree } from './tree';
 
 const DEFAULT_NODE = 'paragraph';
 
-
 /**
  * A change function to standardize inserting images.
  *
