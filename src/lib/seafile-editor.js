@@ -3,7 +3,6 @@ import { Editor } from 'slate-react';
 import EditCode from 'slate-edit-code'
 import EditTable from 'slate-edit-table'
 import EditList from 'slate-edit-list'
-
 import { Tree } from './tree';
 
 const DEFAULT_NODE = 'paragraph';
